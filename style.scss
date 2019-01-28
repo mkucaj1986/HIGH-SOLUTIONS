@@ -1,0 +1,41 @@
+.e-footer {
+  border-top: 1px solid map-get($colors, main);
+  padding: 30px 0 0 0;
+  width: 100%;
+  margin: 20px 0 0 0;
+
+  &_Bottom {
+    border-top: 1px solid #000;
+    padding: 15px 0 0 0;
+  }
+
+  &_FooterImagesHeading {
+    margin: 10px 0;
+  }
+
+  &_CopyRights {
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+
+  &_list {
+    list-style-type: none;
+
+    li {
+      width: 100%;
+      font-size: 13px;
+      padding: 6px 0;
+
+      a {
+        color: map-get($colors, main);
+        opacity: 0.8;
+        font-size: 12px;
+
+        &:hover {
+          opacity: 1;
+          color: map-get($colors, main);
+        }
+      }
+    }
+  }
+}
